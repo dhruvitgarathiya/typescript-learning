@@ -11,7 +11,7 @@ const user1: User = {
   name: "Dhruvit",
 };
 
-console.log(user1.profile?.age);
+//console.log(user1.profile?.age);
 
 //example 2
 const user2 = {
@@ -21,5 +21,10 @@ const user2 = {
   },
 };
 
-console.log(user2.address?.city);
-console.log(user2.address?.pincode);
+//console.log(user2.address?.city);
+//console.log(user2.address?.pincode);
+
+//example 3
+
+const users: { name: string }[] | undefined = undefined;
+//console.log(users?.[0]?.name);
